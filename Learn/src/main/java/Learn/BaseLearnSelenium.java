@@ -14,7 +14,7 @@ import org.openqa.selenium.WebElement;
 public class BaseLearnSelenium {
 	
 	public Actions builder;
-	protected int timeOut = 10;
+	protected int timeOut = 20;
     WebDriver driver;
 	public WebDriverWait wait;
 	static Logger logger = Logger.getLogger("TechConsoleLog");
