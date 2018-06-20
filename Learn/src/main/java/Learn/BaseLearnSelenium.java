@@ -25,7 +25,7 @@ public class BaseLearnSelenium {
 	}
 	
 	 protected boolean presenceOfElement(By locator){
-		 setImplicitWait(200, TimeUnit.MILLISECONDS);
+		 setImplicitWait(300, TimeUnit.MILLISECONDS);
 		 boolean presenceOfElement = true;
 		 try {
 			 wait.until(
